@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header{
+    height: 100px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar{
+    padding-top: 18px;
+}
+
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+
+.Shopping-container{
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+}
+
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.Sales-table-head{
+    background-color: #806BDC;
+}
+
+/* Update the code below this comment */
+.information{
+    width: 92vw;
+    margin: 20px;
+    font-size: 11px;
+    color: #878787;
+    list-style-position: inside;
+}
+.Contact-us {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90vw;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Contact-us h2 {
+    font-size: 24px;
+    color: #806BDC;
+    margin-bottom: 10px;
+}
+
+.Contact-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.Contact-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.Contact-form input, .Contact-form textarea {
+    width: 95%;
+    max-width: 750px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.Contact-form textarea {
+    resize: none;
+}
+
+.Contact-submit {
+    background-color: #806BDC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Contact-submit:hover {
+    background-color: #6f5cb8;
+}
